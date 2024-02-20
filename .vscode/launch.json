@@ -11,13 +11,13 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/Build/",
             "environment": [],
-            "program": "${workspaceFolder}/Build/TemplateCPP",
+            "program": "${workspaceFolder}/Build/Typoglycemia",
             "linux": {
                 "externalConsole": false,
             },
             "windows": {
                 "type": "cppvsdbg",
-                "program": "${workspaceFolder}/Build/TemplateCPP.exe",
+                "program": "${workspaceFolder}/Build/Typoglycemia.exe",
                 "console": "integratedTerminal",
             }
         }
