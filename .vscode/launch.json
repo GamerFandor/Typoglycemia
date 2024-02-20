@@ -11,14 +11,14 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/Build/",
             "environment": [],
-            "program": "${workspaceFolder}/Build/Typoglycemia",
+            "program": "${workspaceFolder}/Build/typoglycemia",
             "args": ["Hello,", "world!", "This", "is", "a", "test", "word:", "apple"],
             "linux": {
                 "externalConsole": false,
             },
             "windows": {
                 "type": "cppvsdbg",
-                "program": "${workspaceFolder}/Build/Typoglycemia.exe",
+                "program": "${workspaceFolder}/Build/typoglycemia.exe",
                 "console": "integratedTerminal",
                 "args": ["Hello,", "world!", "This", "is", "a", "test", "word:", "apple"]
             }
