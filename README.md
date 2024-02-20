@@ -1,10 +1,23 @@
-# C/C++ Template
-The project is a starter project designed to provide a well-organized and ready-to-use setup for developing C/C++ projects using Visual Studio Code. This template is aimed at helping developers quickly get started with C/C++ development without the hassle of setting up a build system and file hierarchy.
+# Typoglycemia
+The phenomenon, known as typoglycemia, is the ability to understand words when the first and last letters are stable, but the intermediate letters are scrambled. Your brain puts the letters back into a sequence again.
 
-### How to Get Started
-Once you've created your repository using this template, you can begin configuring the project and writing code instantly. First, rename the project in the `CMakeLists.txt` file. Then, you can start writing code in the `Source` directory. You can also create subdirectories if needed. When you're ready to run your code, simply press `Ctrl+Shift+B` to build and compile your project. Afterward, you can run it by pressing `F5`.
+### How to Download
+Go to the [releases](https://github.com/GamerFandor/Typoglycemia/releases) tab here on GitHub and select the executable or installer that you want to download.
 
-### Dependencies
+If you want to build the app from source code you are going to need some prerequesets:
 - [CMake](https://cmake.org/download/)
 - [Clang](https://llvm.org/builds/)
 - [Make](https://gnuwin32.sourceforge.net/packages/make.htm)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/) (Only on Windows - works as a backend for Clang)
+Once you've installed all of these softwares just run the `Build.bat` or the `Build.sh` file. After that you will find the executable in the `Build` directory.
+
+### How to Use It
+For help you can use the `-h` or `--help` switch when using the program:
+```
+typoglycemia --help
+```
+
+If you installed the .deb package on linux you also can take a look at the man page:
+```
+man typoglycemia
+```
