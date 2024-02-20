@@ -1,0 +1,47 @@
+.TH Typoglycemia
+.SH NAME
+Typoglycemia \- Scrambles the input text, but you can still read it.
+
+.SH SYNOPSIS
+.B typoglycemia
+[\fI\,OPTIONS\/\fR] <\fI\,TEXT TO BE SCRAMBLED\/\fR>
+
+.SH DESCRIPTION
+The phenomenon, known as typoglycemia, is the ability to understand words when the first and last letters are stable, but the intermediate letters are scrambled. Your brain puts the letters back into a sequence again.
+.SH OPTIONS
+.TP
+\fB\-e=<\fR\fIWORD TO EXCLUDE\fR\fB>[,<\fR\fIWORD TO EXCLUDE\fR\fB>]...\fR, \fB\-\-exclude=<\fR\fIWORD TO EXCLUDE\fR\fB>[,<\fR\fIWORD TO EXCLUDE\fR\fB>]...\fR
+The listed words wont be scrambled
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+Display the help page
+.TP
+\fB\-v\fR, \fB\-\-version\fR
+Display the version
+.SH EXAMPLES
+.B typoglycemia 
+Hello, world!
+.br
+.B typoglycemia 
+\fI\-e=hello\fR
+Hello, world!
+.br
+.B typoglycemia 
+\fI\-h\fR
+.br
+.B typoglycemia 
+\fI\-v\fR
+.SH REPORTING BUGS
+You can report bugs on the project's github page.
+.br
+<https://github.com/GamerFandor/Typoglycemia/issues>
+.SH LICENCE
+Typoglycemia Copyright (C) 2024 Andor Zoltan Fulop
+.br
+This program comes with ABSOLUTELY NO WARRANTY; for details visit <https://gnu.org/licenses/gpl.html>.
+.br
+This is free software, and you are welcome to redistribute it
+.br
+under certain conditions; visit <https://gnu.org/licenses/gpl.html> for details.
+.SH AUTHOR
+Written by Andor Zoltan Fulop.
