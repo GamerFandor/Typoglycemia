@@ -70,9 +70,13 @@ std::vector<std::string> ScrambleText(std::vector<std::string> Input)
     for (std::string Argument : Input)
         if (Argument.find("-e=") != std::string::npos || Argument.find("--exclude=") != std::string::npos)
             ExcludedWordsString = Argument;
-    Input.erase(std::remove(Input.begin(), Input.end(), ExcludedWordsString), Input.end());
+    
+    std::vector<std::string> FilteredInput;
+    for (int i = 0; i < Input.size(); i++)
+        if (Input[i] != ExcludedWordsString)
+            FilteredInput.push_back(Input[i]);
 
-    for (std::string Word : Input)
+    for (std::string Word : FilteredInput)
     {      
         // If the word is an excluded word, store it as it is
         if (IsExcludedWord(ExcludedWords, Word))
